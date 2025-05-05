@@ -1,7 +1,7 @@
 # Healthcare Appointment Booking System with AI Chatbot
 
 ## Description
-This project is a backend-only healthcare application that enables patients to register, book appointments with doctors, manage their appointments, and interact with an AI chatbot through API endpoints. The chatbot, powered by the LLaMA 3.2 model via Ollama, assists with appointment scheduling, symptom assessment, and answering FAQs. Built with Spring Boot, the application is secured with JWT authentication and uses AES-256 encryption for HIPAA-inspired data protection. It is deployed on Heroku with a PostgreSQL database, and users can interact with it via RESTful API endpoints (e.g., using Postman or cURL). The project aims to streamline healthcare appointment management while providing AI-driven patient support.
+This project is a backend-only healthcare application that enables patients to register, book appointments with doctors, manage their appointments, and interact with an AI chatbot through API endpoints. The chatbot, powered by the tinyllama model via Ollama, assists with appointment scheduling, symptom assessment, and answering FAQs. Built with Spring Boot, the application is secured with JWT authentication and uses AES-256 encryption for HIPAA-inspired data protection. It is deployed on Heroku with a PostgreSQL database, and users can interact with it via RESTful API endpoints (e.g., using Postman or cURL). The project aims to streamline healthcare appointment management while providing AI-driven patient support.
 
 ## Table of Contents
 - [Installation](#installation)
