@@ -32,10 +32,10 @@ psql -U postgres -c "CREATE DATABASE healthcare_app;"
 
 # Set up Ollama for the AI chatbot
 # Follow the Ollama setup for Windows (experimental binary, no Docker/WSL, as per setup on May 2, 2025)
-# Run the LLaMA 3.2 model
-ollama run llama3.2
+# Run the tinyllama model
+ollama run tinyllama
 # Ensure the Ollama server is accessible at http://localhost:11434
-curl http://localhost:11434/api/generate -d '{"model": "llama3.2", "prompt": "Hello"}'
+curl http://localhost:11434/api/generate -d '{"model": "tinyllama", "prompt": "Hello"}'
 
 # Set the encryption key for AES-256 encryption
 export ENCRYPTION_KEY="Xn2k9pL5qW8tY3vR7mN4bJ0hG2dF6cI="
